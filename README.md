@@ -24,7 +24,6 @@ Telegram Auth Django Project
 	• PostgreSQL
 	• Bootstrap 5.3
 	• Telegram Bot API
-	• Honcho (для управления процессами)
 
 Установка и запуск проекта
 
@@ -56,14 +55,15 @@ python manage.py createsuperuser
 
 6. Запуск проекта:
 
-	• Запустите сервер Django:
+    • Запустите сервер Django
+   
 В терминале выполните команду:
 
 python manage.py runserver
 
-Сервер будет доступен по адресу http://127.0.0.1:8000.
 
-    • Запустите Telegram-бота:
+    • Запустите Telegram-бота
+    
 В другом терминале или в Python shell выполните следующую команду:
 
 python manage.py shell
